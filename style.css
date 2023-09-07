@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=VT323&display=swap");
+
+body {
+  background-color: darkslateblue;
+  color: antiquewhite;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+body > * {
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3%;
+  font-size: 21px;
+  font-family: "VT323", monospace;
+}
+
+.table {
+  margin-top: 0%;
+  background-color: rgb(34, 34, 34);
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+table {
+  width: 90%;
+  margin: 0 5%;
+  text-align: left;
+  display: flex;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid rgb(43, 43, 43);
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.desc {
+  text-align: justify;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 1%;
+  font-family: "VT323", monospace;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 12px;
+  }
+
+  table {
+    flex-direction: column;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  footer {
+    padding-top: 1%;
+    font-size: 9px;
+  }
+}
